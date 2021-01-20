@@ -1,0 +1,101 @@
+* {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+a{
+    align-content: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+nav > a {
+    border: dimgray solid 0.2em;
+    border-radius: 10px;
+    margin-left: 1em;
+    padding: 0.3em 1em 0.3em 1em;
+    background-color: darkgray;
+    text-align: center;
+}
+
+#bas{
+    font-style: italic;
+}
+
+section{
+    border: dimgray solid 0.2em;
+    border-radius: 10px;
+    margin: 2em;
+}
+
+.listesAccueil{
+    background-color: #013873;
+}
+
+.liste{
+    background-color: #167480;
+}
+
+.item{
+    background-color: #009e88;
+}
+
+.gestionCompte{
+    background-color: lightblue;
+}
+
+button{
+    margin: 1em;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    border: solid 0.2em dimgray;
+    border-radius: 10px;
+    min-width: 10em;
+    width: min-content;
+    padding: 1em;
+    margin: 1em;
+}
+
+.message{
+    border: inherit;
+    width: inherit;
+    padding: inherit;
+    margin: 0;
+    min-width: inherit;
+}
+
+.image{
+    display: flex;
+    width: 20em;
+    height: 20em;
+    justify-content: center;
+    margin: auto;
+}
+
+.liste .image {
+    overflow: hidden;
+}
+
+form{
+    display: grid;
+    width: min-content;
+    margin: auto;
+    justify-content: center;
+}
+
+form > label{
+    margin-top: 1em;
+}
