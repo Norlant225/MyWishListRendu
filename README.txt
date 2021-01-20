@@ -5,7 +5,7 @@ Indications permettant l'installation du projet sur une machine quelconque (Wind
 2. Clonez le dépôt dans le dossier "C:\xampp\htdocs" avec la commande 
 "git clone [url du dépôt]" dans l'invite de commande au niveau de ce dossier
 
-3. Demarrez les services Xampp "Apache" et "MySQL" dans l'application "XAMPP Control Panel"
+3. Démarrez les services Xampp "Apache" et "MySQL" dans l'application "XAMPP Control Panel"
 
 4. Ouvrez votre navigateur
 
